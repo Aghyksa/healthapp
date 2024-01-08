@@ -25,5 +25,5 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.2.3'
-          channel: 'any'
+          channel: 'main'
       - run: flutter --version
