@@ -24,6 +24,6 @@ jobs:
       # - uses: dart-lang/setup-dart@v1
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.2.3'
-          channel: 'main'
-      - run: flutter --version
+          flutter-version: '3.2.x'
+          channel: any
+      - run: flutter pub get
