@@ -64,7 +64,7 @@ class ProfilePage extends StatelessWidget {
             ),
           ),
           const Text(
-            "Rakul Preet",
+            "Hwasa",
             style: TextStyle(fontSize: 30, fontWeight: FontWeight.w300),
           ),
           const SizedBox(height: 8),
