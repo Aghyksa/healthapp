@@ -19,10 +19,10 @@ jobs:
           channel: stable
           version: 3.0.2
 
-      - name: Install dependencies
+      - name: Install dependenciess
         run: flutter pub get
 
-      - name: Analyze project source
+      - name: Analyze project sources
         run: dart analyze
 
       - name: Run tests
