@@ -24,6 +24,6 @@ jobs:
       # - uses: dart-lang/setup-dart@v1
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.2.2'
-          channel: 'stable'
+          flutter-version: '3.2.3'
+          channel: 'any'
       - run: flutter --version
